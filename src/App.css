@@ -3,25 +3,31 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: auto;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 80s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #012710;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #bcefcb, #012710), repeating-radial-gradient(circle at center center, #bcefcb, #bcefcb, 10px, transparent 20px, transparent 10px);
+  background-blend-mode: multiply;
+  height: 96vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
