@@ -3,10 +3,7 @@ import './App.css';
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useRef } from 'react'
 import Footer from './components/Footer/Footer';
-
-import ReactGA from 'react-ga';
-ReactGA.initialize('G-YPH5TYHZCV');
-ReactGA.pageview(window.location.pathname + window.location.search);
+ 
 
 function App() {
   function Tilt(props) {
