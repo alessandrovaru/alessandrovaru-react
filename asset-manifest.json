@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/alessandrovaru-react/static/css/main.30d0274e.css",
+    "main.js": "/alessandrovaru-react/static/js/main.69150d3b.js",
+    "static/js/787.cfcaab6e.chunk.js": "/alessandrovaru-react/static/js/787.cfcaab6e.chunk.js",
+    "static/media/Microgramma Bold.otf": "/alessandrovaru-react/static/media/Microgramma Bold.9d81240ce329ee3337f7.otf",
+    "static/media/logomandala.png": "/alessandrovaru-react/static/media/logomandala.5b16d573b67196db2401.png",
+    "index.html": "/alessandrovaru-react/index.html",
+    "main.30d0274e.css.map": "/alessandrovaru-react/static/css/main.30d0274e.css.map",
+    "main.69150d3b.js.map": "/alessandrovaru-react/static/js/main.69150d3b.js.map",
+    "787.cfcaab6e.chunk.js.map": "/alessandrovaru-react/static/js/787.cfcaab6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30d0274e.css",
+    "static/js/main.69150d3b.js"
+  ]
+}
