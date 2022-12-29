@@ -10,10 +10,23 @@ export const FooterSection = styled.div`
   width: 100%;
   background:white;
   height: 4vh;
-  
+  font-family: 'Questrial', sans-serif;
+  text-transform: none; 
+  font-size: 10px
 `;
 
 export const FooterP = styled.p`
   margin:0;
   padding:0;
+`;
+
+export const FooterSpan = styled.span`
+  font-family: 'Microgramma', sans-serif;
+  text-transform: uppercase
+`;
+
+export const FooterA = styled.a`
+  text-decoration:none;
+  color: black;
+  margin-left: 2px
 `;
