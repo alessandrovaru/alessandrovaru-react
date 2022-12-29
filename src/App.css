@@ -12,6 +12,10 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 80s linear;
+    transition: all 0.5 ease-in-out;
+  }
+  .App-logo:hover {
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
