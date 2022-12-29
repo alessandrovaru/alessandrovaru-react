@@ -24,7 +24,7 @@ function App() {
   
 
   const randomSong = () => {
-    const songs = ["https://www.youtube.com/watch?v=7NSTN2DfJMM&ab_channel=Poncelam", "https://www.youtube.com/watch?v=WPRkIavs1Gk&ab_channel=GallerySessions", "https://jungutah.org/blog/mandalas-symbols-of-the-self-2/", "https://www.youtube.com/watch?v=PLRXzJFAIoM&t=477s&ab_channel=SOLirisTV"]
+    const songs = ["https://www.youtube.com/watch?v=Z9sliXzD5Jc&ab_channel=DavidDeanBurkhart","https://www.youtube.com/watch?v=7NSTN2DfJMM&ab_channel=Poncelam", "https://www.youtube.com/watch?v=WPRkIavs1Gk&ab_channel=GallerySessions", "https://jungutah.org/blog/mandalas-symbols-of-the-self-2/", "https://www.youtube.com/watch?v=PLRXzJFAIoM&t=477s&ab_channel=SOLirisTV"]
     const randomIndex = Math.floor(Math.random() * songs.length);
     const item = songs[randomIndex]
     window.open(item, '_blank');
