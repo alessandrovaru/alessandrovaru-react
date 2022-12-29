@@ -4,6 +4,10 @@ import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useRef } from 'react'
 import Footer from './components/Footer/Footer';
  
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-YPH5TYHZCV"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   function Tilt(props) {
