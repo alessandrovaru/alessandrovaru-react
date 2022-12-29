@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8ec25f6.css",
-    "main.js": "/static/js/main.d83490cb.js",
+    "main.css": "/static/css/main.34e11818.css",
+    "main.js": "/static/js/main.460c1982.js",
     "static/js/787.cfcaab6e.chunk.js": "/static/js/787.cfcaab6e.chunk.js",
     "static/media/Microgramma Bold.otf": "/static/media/Microgramma Bold.9d81240ce329ee3337f7.otf",
     "static/media/logomandala.png": "/static/media/logomandala.5b16d573b67196db2401.png",
     "index.html": "/index.html",
-    "main.a8ec25f6.css.map": "/static/css/main.a8ec25f6.css.map",
-    "main.d83490cb.js.map": "/static/js/main.d83490cb.js.map",
+    "main.34e11818.css.map": "/static/css/main.34e11818.css.map",
+    "main.460c1982.js.map": "/static/js/main.460c1982.js.map",
     "787.cfcaab6e.chunk.js.map": "/static/js/787.cfcaab6e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8ec25f6.css",
-    "static/js/main.d83490cb.js"
+    "static/css/main.34e11818.css",
+    "static/js/main.460c1982.js"
   ]
 }
