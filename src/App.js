@@ -15,7 +15,7 @@ function App() {
             </>
           :
             <>
-              <p onClick={()=>setStart(true)}>descubre algo aquí</p>
+              <p className='startButton' onClick={()=>setStart(true)}>descubre algo aquí</p>
             </>
           }
         </header>

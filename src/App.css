@@ -41,11 +41,11 @@
   
 }
 
-.App-header p{
+.App-header .startButton{
   font-size: 16px;
   animation: opacityOnAndOff 2s ease-in-out infinite;
   cursor: pointer;
-  
+  text-transform: uppercase;
 }
 
 .App-link {
