@@ -39,6 +39,18 @@ const PoemContainer = styled.div`
     text-decoration: none;
     color: gray
   }
+  @media only screen and (max-width: 900px) {
+    p{
+      font-family:'Questrial';
+      font-size: 10px;
+    }
+    h1{
+      font-size: 8px
+    }
+    h2{
+      font-size: 18px
+    }
+  }
 `
 
 const MandalaButton = () => {
@@ -103,7 +115,7 @@ const MandalaButton = () => {
             <br></br>
             <p>La intento soltar, pero vuelve dentro de mí.</p>
             <br></br>
-            <a href="https://twitter.com/alessandrovaru" target="_blank" rel="noreferrer"><h1>ALESSANDROVARU</h1></a>
+            <a href="https://instagram.com/alessandrovaru" target="_blank" rel="noreferrer"><h1>ALESSANDROVARU</h1></a>
           </PoemContainer>
         }
       </Tilt>
