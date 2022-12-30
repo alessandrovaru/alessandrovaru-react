@@ -6,6 +6,7 @@
   height: auto;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  width: 200px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -17,10 +18,11 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 80s linear;
-    transition: all 0.5 ease-in-out;
+    transition: all 1 ease-in-out;
   }
   .App-logo:hover {
-    animation: App-logo-spin infinite 5s linear;
+    width: 300px;
+    animation: App-logo-spin infinite 10s linear
   }
 }
 
@@ -39,6 +41,13 @@
   
 }
 
+.App-header p{
+  font-size: 16px;
+  animation: opacityOnAndOff 2s ease-in-out infinite;
+  cursor: pointer;
+  
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -49,5 +58,24 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes opacityOnAndOff {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
