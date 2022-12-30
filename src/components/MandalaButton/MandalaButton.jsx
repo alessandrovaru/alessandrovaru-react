@@ -93,7 +93,7 @@ const MandalaButton = () => {
           <>
             {!poemClicked &&
               <>
-                <h6>Descubre algo y vuelve cuando quieras</h6>
+                <h6>Haz click y vuelve cuando quieras</h6>
               </>
             }
           </>
