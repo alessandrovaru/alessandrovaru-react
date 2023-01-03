@@ -82,10 +82,19 @@ const MandalaButton = () => {
     max: 30
   };
   //Random Link
-  const randomSong = () => {
-    const songs = ["https://www.tdx.cat/bitstream/handle/10803/462856/tae.pdf", "http://www.instituto-integra.com/wp-content/uploads/2017/05/el_libro_rojo_jung_carl_gustav.pdf", "https://www.youtube.com/watch?v=Z9sliXzD5Jc&ab_channel=DavidDeanBurkhart", "https://www.youtube.com/watch?v=7NSTN2DfJMM&ab_channel=Poncelam", "https://www.youtube.com/watch?v=WPRkIavs1Gk&ab_channel=GallerySessions", "https://jungutah.org/blog/mandalas-symbols-of-the-self-2/", "https://www.youtube.com/watch?v=PLRXzJFAIoM&t=477s&ab_channel=SOLirisTV"]
-    const randomIndex = Math.floor(Math.random() * songs.length);
-    const item = songs[randomIndex]
+  const randomLink = () => {
+    const links = [
+                    "https://www.tdx.cat/bitstream/handle/10803/462856/tae.pdf", 
+                    "http://www.instituto-integra.com/wp-content/uploads/2017/05/el_libro_rojo_jung_carl_gustav.pdf", 
+                    "https://www.youtube.com/watch?v=Z9sliXzD5Jc&ab_channel=DavidDeanBurkhart", 
+                    "https://www.youtube.com/watch?v=7NSTN2DfJMM&ab_channel=Poncelam", 
+                    "https://www.youtube.com/watch?v=WPRkIavs1Gk&ab_channel=GallerySessions", 
+                    "https://jungutah.org/blog/mandalas-symbols-of-the-self-2/", 
+                    "https://www.youtube.com/watch?v=PLRXzJFAIoM&t=477s&ab_channel=SOLirisTV",
+                    "https://www.youtube.com/watch?v=bs3HK3pxVAY&list=PLuyJdbBL2WAkLIwpzmGK8gvKumPhoutjE&index=1&ab_channel=TheIntrovertedThinker"
+                  ]
+    const randomIndex = Math.floor(Math.random() * links.length);
+    const item = links[randomIndex]
     setMandalaClicked(true);
     setPoemClicked(false);
     window.open(item, '_blank');
@@ -96,7 +105,7 @@ const MandalaButton = () => {
       <Tilt 
         className="tilt" options={options}
       >
-        <img onClick={randomSong} src={logo} className="App-logo" alt="logo" />
+        <img onClick={randomLink} src={logo} className="App-logo" alt="logo" />
         
         {!mandalaClicked &&
           <>
