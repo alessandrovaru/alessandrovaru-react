@@ -97,7 +97,7 @@ const MandalaButton = () => {
         className="tilt" options={options}
       >
         <img onClick={randomSong} src={logo} className="App-logo" alt="logo" />
-        <img onClick={randomSong} src={mand} className="App-logo" alt="logo" />
+        
         {!mandalaClicked &&
           <>
             {!poemClicked &&
@@ -110,10 +110,12 @@ const MandalaButton = () => {
         {mandalaClicked && 
           <>
             <h6>Vuelve a tocar el Mandala y descubre algo diferente</h6>
+            <MandalaPoemButton onClick={()=>{setPoemClicked(true); setMandalaClicked(false)}}>Primer Mandala</MandalaPoemButton>
           </>
         }
         {poemClicked && 
           <PoemContainer>
+            <img onClick={randomSong} src={mand} className="App-logo" alt="logo" />
             <h2>Nausea Ansiosa</h2>
             <p>Estuvo aquí dentro de mí en todo momento.</p>
             <p>Un nudo en la garganta, que no puedo evitar,</p>
