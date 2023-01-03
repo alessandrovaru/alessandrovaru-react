@@ -1,10 +1,17 @@
 import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useRef, useState } from 'react'
 import logo from '../../logomandala.png';
+import mand from '../../images/mand1.jpg';
 import styled from "styled-components";
 
 const MandalaContainer = styled.div`
-  animation: slideInFromLeft 2s ease-in-out
+  animation: slideInFromLeft 2s ease-in-out;
+  .tilt{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center
+  }
 `;
 
 const MandalaPoemButton = styled.button`
@@ -16,6 +23,7 @@ const MandalaPoemButton = styled.button`
   cursor: pointer;
   font-family: 'Questrial';
   transition: all .3s ease-in-out;
+  margin-top:30px;
   &:hover {
     background-color: white;
     color: black
@@ -89,19 +97,19 @@ const MandalaButton = () => {
         className="tilt" options={options}
       >
         <img onClick={randomSong} src={logo} className="App-logo" alt="logo" />
+        <img onClick={randomSong} src={mand} className="App-logo" alt="logo" />
         {!mandalaClicked &&
           <>
             {!poemClicked &&
               <>
-                <h6>Haz click y vuelve cuando quieras</h6>
+                <MandalaPoemButton onClick={()=>{setPoemClicked(true); setMandalaClicked(false)}}>Primer Mandala</MandalaPoemButton>
               </>
             }
           </>
         }
         {mandalaClicked && 
           <>
-            <h6>Haz click y descubre algo diferente</h6>
-            <MandalaPoemButton onClick={()=>{setPoemClicked(true); setMandalaClicked(false)}}> o lee un poema</MandalaPoemButton>
+            <h6>Vuelve a tocar el Mandala y descubre algo diferente</h6>
           </>
         }
         {poemClicked && 
