@@ -12,7 +12,9 @@ export const FooterSection = styled.div`
   height: 4vh;
   font-family: 'Questrial', sans-serif;
   text-transform: none; 
-  font-size: 10px
+  font-size: 10px;
+  position: relative;
+  z-index:3
 `;
 
 export const FooterP = styled.p`
