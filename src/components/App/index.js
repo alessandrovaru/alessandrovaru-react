@@ -66,7 +66,7 @@ if (!start) {
 
   return (
     <div className="App">
-      <img className='app-background-image' src={mand}/>
+      <img alt='mandala' className='app-background-image' src={mand}/>
         <header className="App-header">
           {start ?
             <>
@@ -74,7 +74,7 @@ if (!start) {
             </>
           :
             <>
-              <p className='startButton' onClick={()=>setStart(true)}>{welcome}</p>
+              <h2 className='startButton' onClick={()=>setStart(true)}>{welcome}</h2>
             </>
           }
         </header>
